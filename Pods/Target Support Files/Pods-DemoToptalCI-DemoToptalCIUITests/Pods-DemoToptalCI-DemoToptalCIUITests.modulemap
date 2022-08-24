@@ -1,0 +1,6 @@
+framework module Pods_DemoToptalCI_DemoToptalCIUITests {
+  umbrella header "Pods-DemoToptalCI-DemoToptalCIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

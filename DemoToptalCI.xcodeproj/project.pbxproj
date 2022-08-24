@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81FC0BD3E9E81F1695A1C1E5 /* Pods_DemoToptalCITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19ED3BED87A3F946F87823DD /* Pods_DemoToptalCITests.framework */; };
+		92D6E95AC24B94DF2E0DF5B6 /* Pods_DemoToptalCI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E60B1D8B33F28708ADD21D /* Pods_DemoToptalCI.framework */; };
 		9476D7B428B6DC01006DE0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D7B328B6DC01006DE0D2 /* AppDelegate.swift */; };
 		9476D7B628B6DC01006DE0D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D7B528B6DC01006DE0D2 /* SceneDelegate.swift */; };
 		9476D7B828B6DC01006DE0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D7B728B6DC01006DE0D2 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		9476D7CB28B6DC05006DE0D2 /* DemoToptalCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D7CA28B6DC05006DE0D2 /* DemoToptalCITests.swift */; };
 		9476D7D528B6DC05006DE0D2 /* DemoToptalCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D7D428B6DC05006DE0D2 /* DemoToptalCIUITests.swift */; };
 		9476D7D728B6DC05006DE0D2 /* DemoToptalCIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D7D628B6DC05006DE0D2 /* DemoToptalCIUITestsLaunchTests.swift */; };
+		E879B409A4AC971AA3B6EA7E /* Pods_DemoToptalCI_DemoToptalCIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F57E7ED8624BD68E818D66 /* Pods_DemoToptalCI_DemoToptalCIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014C9C06014E757CE4F85E8D /* Pods-DemoToptalCI-DemoToptalCIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToptalCI-DemoToptalCIUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoToptalCI-DemoToptalCIUITests/Pods-DemoToptalCI-DemoToptalCIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09D02DC31C95127DF14FC479 /* Pods-DemoToptalCI-DemoToptalCIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToptalCI-DemoToptalCIUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToptalCI-DemoToptalCIUITests/Pods-DemoToptalCI-DemoToptalCIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19ED3BED87A3F946F87823DD /* Pods_DemoToptalCITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToptalCITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E60B1D8B33F28708ADD21D /* Pods_DemoToptalCI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToptalCI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C33DC59EAC4983498C9BB1 /* Pods-DemoToptalCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToptalCI.release.xcconfig"; path = "Target Support Files/Pods-DemoToptalCI/Pods-DemoToptalCI.release.xcconfig"; sourceTree = "<group>"; };
 		9476D7B028B6DC01006DE0D2 /* DemoToptalCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoToptalCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9476D7B328B6DC01006DE0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9476D7B528B6DC01006DE0D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		9476D7D028B6DC05006DE0D2 /* DemoToptalCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoToptalCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9476D7D428B6DC05006DE0D2 /* DemoToptalCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToptalCIUITests.swift; sourceTree = "<group>"; };
 		9476D7D628B6DC05006DE0D2 /* DemoToptalCIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToptalCIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD3D9DFA2AE3395B497EFA9B /* Pods-DemoToptalCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToptalCI.debug.xcconfig"; path = "Target Support Files/Pods-DemoToptalCI/Pods-DemoToptalCI.debug.xcconfig"; sourceTree = "<group>"; };
+		BE44E0EB3DB2688F3D475F1C /* Pods-DemoToptalCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToptalCITests.release.xcconfig"; path = "Target Support Files/Pods-DemoToptalCITests/Pods-DemoToptalCITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4F57E7ED8624BD68E818D66 /* Pods_DemoToptalCI_DemoToptalCIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToptalCI_DemoToptalCIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD84E5A3E652287E472BF4 /* Pods-DemoToptalCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToptalCITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToptalCITests/Pods-DemoToptalCITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D6E95AC24B94DF2E0DF5B6 /* Pods_DemoToptalCI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FC0BD3E9E81F1695A1C1E5 /* Pods_DemoToptalCITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E879B409A4AC971AA3B6EA7E /* Pods_DemoToptalCI_DemoToptalCIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4916EB0A6CB3510A7961D136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D9DFA2AE3395B497EFA9B /* Pods-DemoToptalCI.debug.xcconfig */,
+				70C33DC59EAC4983498C9BB1 /* Pods-DemoToptalCI.release.xcconfig */,
+				09D02DC31C95127DF14FC479 /* Pods-DemoToptalCI-DemoToptalCIUITests.debug.xcconfig */,
+				014C9C06014E757CE4F85E8D /* Pods-DemoToptalCI-DemoToptalCIUITests.release.xcconfig */,
+				FACD84E5A3E652287E472BF4 /* Pods-DemoToptalCITests.debug.xcconfig */,
+				BE44E0EB3DB2688F3D475F1C /* Pods-DemoToptalCITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9476D7A728B6DC01006DE0D2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				9476D7C928B6DC05006DE0D2 /* DemoToptalCITests */,
 				9476D7D328B6DC05006DE0D2 /* DemoToptalCIUITests */,
 				9476D7B128B6DC01006DE0D2 /* Products */,
+				4916EB0A6CB3510A7961D136 /* Pods */,
+				FFBDBB1348910ECCFB5A6F52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = DemoToptalCIUITests;
 			sourceTree = "<group>";
 		};
+		FFBDBB1348910ECCFB5A6F52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59E60B1D8B33F28708ADD21D /* Pods_DemoToptalCI.framework */,
+				C4F57E7ED8624BD68E818D66 /* Pods_DemoToptalCI_DemoToptalCIUITests.framework */,
+				19ED3BED87A3F946F87823DD /* Pods_DemoToptalCITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9476D7DA28B6DC05006DE0D2 /* Build configuration list for PBXNativeTarget "DemoToptalCI" */;
 			buildPhases = (
+				216D1AC4F8B549A2B37A838A /* [CP] Check Pods Manifest.lock */,
 				9476D7AC28B6DC01006DE0D2 /* Sources */,
 				9476D7AD28B6DC01006DE0D2 /* Frameworks */,
 				9476D7AE28B6DC01006DE0D2 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9476D7DD28B6DC05006DE0D2 /* Build configuration list for PBXNativeTarget "DemoToptalCITests" */;
 			buildPhases = (
+				4A976DAF36BD3C9EB9E898A2 /* [CP] Check Pods Manifest.lock */,
 				9476D7C228B6DC04006DE0D2 /* Sources */,
 				9476D7C328B6DC04006DE0D2 /* Frameworks */,
 				9476D7C428B6DC04006DE0D2 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9476D7E028B6DC05006DE0D2 /* Build configuration list for PBXNativeTarget "DemoToptalCIUITests" */;
 			buildPhases = (
+				F9A4DD564BBA0003C8B33339 /* [CP] Check Pods Manifest.lock */,
 				9476D7CC28B6DC05006DE0D2 /* Sources */,
 				9476D7CD28B6DC05006DE0D2 /* Frameworks */,
 				9476D7CE28B6DC05006DE0D2 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		216D1AC4F8B549A2B37A838A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoToptalCI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A976DAF36BD3C9EB9E898A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoToptalCITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A4DD564BBA0003C8B33339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoToptalCI-DemoToptalCIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9476D7AC28B6DC01006DE0D2 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		9476D7DB28B6DC05006DE0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3D9DFA2AE3395B497EFA9B /* Pods-DemoToptalCI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +574,7 @@
 		};
 		9476D7DC28B6DC05006DE0D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C33DC59EAC4983498C9BB1 /* Pods-DemoToptalCI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +603,7 @@
 		};
 		9476D7DE28B6DC05006DE0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACD84E5A3E652287E472BF4 /* Pods-DemoToptalCITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +624,7 @@
 		};
 		9476D7DF28B6DC05006DE0D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE44E0EB3DB2688F3D475F1C /* Pods-DemoToptalCITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +645,7 @@
 		};
 		9476D7E128B6DC05006DE0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D02DC31C95127DF14FC479 /* Pods-DemoToptalCI-DemoToptalCIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +664,7 @@
 		};
 		9476D7E228B6DC05006DE0D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014C9C06014E757CE4F85E8D /* Pods-DemoToptalCI-DemoToptalCIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
