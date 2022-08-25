@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
       - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode_13.1.app
+        run: sudo xcode-select -switch /Applications/Xcode_13.1.app && /usr/bin/xcodebuild -version
 #      - name: Testing Swift package
 #        run: exec ./.github/scripts/test_swift_package.sh
       - name: Testing iOS app
