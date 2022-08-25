@@ -19,6 +19,12 @@ jobs:
           xcrun simctl list runtimes
           xcrun simctl create iPhone_12 "iPhone 12" "com.apple.CoreSimulator.SimRuntime.iOS-15-0"
           xcrun simctl list devices 15.0
+          
+      - name: Install Cocoapods
+        run: gem install cocoapods
+      - name: Install pods to prepare workspace
+        run: pod install
+    
       - name: Show Build Settings
         run: xcodebuild -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -showBuildSettings
 #      - name: Testing Swift package
