@@ -13,7 +13,7 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -switch /Applications/Xcode_13.1.app && /usr/bin/xcodebuild -version
       - name: install simulator
-        run: xcversion simulators --install='iOS 15.5'
+        run: xcversion simulators --install='iOS 15.0'
       - name: Prepare iOS 15.0 simulator
         run: |
           sudo mkdir -p /Library/Developer/CoreSimulator/Profiles/Runtimes
@@ -32,5 +32,5 @@ jobs:
 #      - name: Testing Swift package
 #        run: exec ./.github/scripts/test_swift_package.sh
       - name: clean and build
-        run: xcodebuild clean build -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -destination 'platform=iOS Simulator,OS=15.5,name=iPhone 12' -showBuildTimingSummary
+        run: xcodebuild clean build -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12' -showBuildTimingSummary
 
