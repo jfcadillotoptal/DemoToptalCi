@@ -22,4 +22,4 @@ jobs:
 #      - name: Testing Swift package
 #        run: exec ./.github/scripts/test_swift_package.sh
       - name: Testing iOS app
-        run: xcodebuild test -scheme DemoToptalCI -workspace DemoToptalCI.xcworkspace -destination 'platform=iOS Simulator,name=iPhone_8' | xcpretty && exit ${PIPESTATUS[0]}
+        run: xcodebuild test -scheme DemoToptalCI -workspace DemoToptalCI.xcworkspace -destination 'platform=iOS Simulator,name=iPhone_12' | xcpretty && exit ${PIPESTATUS[0]}
