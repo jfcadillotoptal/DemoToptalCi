@@ -28,8 +28,7 @@ jobs:
         run: pod install
  
       - name: iOS build setup
-        run: |
-          xcodebuild build-for-testing -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI #-allowProvisioningUpdates
+        run: xcodebuild build-for-testing -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI #-allowProvisioningUpdates
  
       - name: testing ... iPhone 12
         run: xcodebuild test-without-building -scheme DemoToptalCI -workspace DemoToptalCI.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.0'
