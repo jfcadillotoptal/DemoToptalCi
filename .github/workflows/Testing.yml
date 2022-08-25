@@ -1,6 +1,6 @@
 name: Testing
 on:
-  push:
+  pull-request:
     branches:
     - main
 jobs:
