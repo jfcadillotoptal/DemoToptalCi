@@ -4,6 +4,6 @@ set -eo pipefail
 
 xcodebuild -workspace DemoToptalCI.xcworkspace \
             -scheme DemoToptalCI \
-            -destination 'platform=iOS\ Simulator,OS=15.5,name=iPhone\ 13' \
-            clean test | xcpretty
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.0'
 
