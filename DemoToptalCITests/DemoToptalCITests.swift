@@ -27,7 +27,6 @@ class DemoToptalCITests: XCTestCase {
     
         
         
-        
     }
     
     func testUnitTestExampleFail() throws {
