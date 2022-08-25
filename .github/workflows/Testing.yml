@@ -29,12 +29,14 @@ jobs:
     
       - name: Show Build Settings
         run: xcodebuild -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -showBuildSettings
-#      - name: Testing Swift package
-#        run: exec ./.github/scripts/test_swift_package.sh
+        
+      - name: Testing iOS app
+        run: exec ./.github/scripts/test_app.sh
+
 #      - name: clean and build
 #        run: xcodebuild clean build -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12' -showBuildTimingSummary
         
-      - name: build and test
-        run: xcodebuild clean build test -workspace DemoToptalCI.xcworkspace -scheme "DemoToptalCI" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=15.0,name=iPhone 12" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+#      - name: build and test
+#        run: xcodebuild clean build test -workspace DemoToptalCI.xcworkspace -scheme "DemoToptalCI" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=15.0,name=iPhone 12" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 
 
