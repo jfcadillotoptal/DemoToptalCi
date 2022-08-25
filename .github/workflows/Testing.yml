@@ -26,12 +26,26 @@ jobs:
         run: gem install cocoapods
       - name: Install pods to prepare workspace
         run: pod install
-    
-      - name: Show Build Settings
-        run: xcodebuild -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -showBuildSettings
-        
-      - name: Testing iOS app
-        run: exec ./.github/scripts/test_app.sh
+ 
+      - name: iOS build setup
+        run: |
+          xcodebuild build-for-testing -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI #-allowProvisioningUpdates
+ 
+      - name: testing ... iPhone 12
+        run: xcodebuild test-without-building -scheme DemoToptalCI -workspace DemoToptalCI.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.0'
+ 
+ 
+#      - name: Show Build Settings
+#        run: xcodebuild -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -showBuildSettings
+#
+#      - name: Testing iOS app
+#        run: exec ./.github/scripts/test_app.sh
+
+
+
+
+
+
 
 #      - name: clean and build
 #        run: xcodebuild clean build -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12' -showBuildTimingSummary
