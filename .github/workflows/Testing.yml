@@ -30,5 +30,5 @@ jobs:
 #      - name: Testing Swift package
 #        run: exec ./.github/scripts/test_swift_package.sh
       - name: clean and build
-        run: xcodebuild clean build -workspace Grocery.xcworkspace -scheme Grocery -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12' -showBuildTimingSummary
+        run: xcodebuild clean build -workspace DemoToptalCI.xcworkspace -scheme DemoToptalCI -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12' -showBuildTimingSummary
 
