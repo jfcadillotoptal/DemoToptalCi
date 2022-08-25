@@ -1,4 +1,8 @@
 name: Testing
+on:
+  pull_request:
+    branches:
+    - main
 
 jobs:
   test:
